@@ -11,7 +11,7 @@ class Solution:
             else: 
                 nums[k] = num 
                 k += 1
-        # print(nums)
+        print(nums)
 
         while(k <= len(nums) - 1 ):
             nums[k] = 0

@@ -5,7 +5,7 @@ class Solution:
         num_dic = {}
         for num in nums:
             num_dic[num] =  num_dic.get(num, 0) + 1
-        # print(num_dic)
+        print(num_dic)
 
         criteria = len(nums) // 2  # absolute division
 
@@ -17,6 +17,6 @@ class Solution:
 
 
 obj = Solution()
-nums1 = [1,7,3,3]
+nums1 = [1,3,1,3]
 # nums2 = [3,7,9]
 print(obj.majority_elem(nums1))
